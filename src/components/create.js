@@ -30,7 +30,7 @@ export default function Create() {
    // When a post request is sent to the create url, we'll add a new record to the database.
    const newPerson = { ...form };
     // console.log(newPerson)
-   await fetch("http://localhost:5000/record/add", {
+   await fetch("https://employee-management-server.onrender.com/record/add", {
      method: "POST",
      headers: {
        "Content-Type": "application/json",

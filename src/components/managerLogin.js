@@ -46,7 +46,7 @@ const [records, setRecords] = useState([]);
 // }
 useEffect(()=>{
   async function getRecords() {
-    const response = await fetch(`http://localhost:5000/manager`);
+    const response = await fetch(`https://employee-management-server.onrender.com/manager`);
       // console.log(response.body)
   
     if (!response.ok) {
