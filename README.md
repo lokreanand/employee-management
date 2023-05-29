@@ -15,7 +15,7 @@ How to run:
 
 
 NOTE:
-1. This is only client side code which is using my deployed server on render.com. You should clone the server side repository  https://github.com/lokreanand/employee-management-serverto deploy using render.com or other deployment websites.
+1. This is only client side code which is using my deployed server on render.com. You should clone the server side repository  https://github.com/lokreanand/employee-management-server to deploy using render.com or other deployment websites.
 2. Then add that link to all the places where i have used render.com link in the components folder of the client side code.
 
 
