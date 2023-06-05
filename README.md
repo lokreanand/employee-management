@@ -15,8 +15,14 @@ How to run:
 
 
 NOTE:
-1. This is only client side code which is using my deployed server on render.com. You should clone the server side repository  https://github.com/lokreanand/employee-management-server to deploy using render.com or other deployment websites.
-2. Then add that link to all the places where i have used render.com link in the components folder of the client side code.
+1. This is only client side code which is using my deployed server on render.com. Open this repository https://github.com/lokreanand/employee-management-server and follow instructions after that deploy it using render.com or other deployment websites.
+2. Then replace my **deployed link** with yours in below places:
+   Components/addTask.js - line no. 57
+   components/create.js - line no. 33
+   components/edit.js - line no. 18, 60
+   components/managerLogin.js - line no. 49
+   components/recordList.js - line no. 50, 70
+3. Done. Enjoy!!.
 
 
 
